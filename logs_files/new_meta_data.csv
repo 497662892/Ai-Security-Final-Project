@@ -1,0 +1,101 @@
+ID,Number of frames,Shape,Size,Location,Pathological diagnosis
+case1,527,Is,6,Cecum,Low-grade adenoma
+case2,1313,Is,18,Rectum,High-grade adenoma
+case3,292,IIa,3,Ascending colon,Low-grade adenoma
+case4,80,Is,4,Sigmoid colon,Low-grade adenoma
+case5,930,IIa,3,Transverse colon,Low-grade adenoma
+case6,491,IIa,3,Sigmoid colon,Low-grade adenoma
+case7,315,IIa,6,Descending colon,Low-grade adenoma
+case8,256,Isp,12,Sigmoid colon,Low-grade adenoma
+case9,136,Is,4,Sigmoid colon,Low-grade adenoma
+case10,436,IIa,3,Transverse colon,Low-grade adenoma
+case11,113,IIa,5,Descending colon,Low-grade adenoma
+case12,538,Is,5,Rectum,Low-grade adenoma
+case13,479,Is,5,Transverse colon,Low-grade adenoma
+case14,1183,IIa,3,Sigmoid colon,Low-grade adenoma
+case15,487,Is,5,Transverse colon,Low-grade adenoma
+case16,199,Is,4,Transverse colon,Low-grade adenoma
+case17,304,Is,4,Sigmoid colon,Low-grade adenoma
+case18,243,Is,2,Sigmoid colon,Hyperplastic polyp
+case19,96,IIa,3,Transverse colon,Low-grade adenoma
+case20,3159,IIa,3,Ascending colon,Low-grade adenoma
+case21,100,IIa,3,Sigmoid colon,Low-grade adenoma
+case22,314,IIa,2,Ascending colon,Low-grade adenoma
+case23,182,Ip,12,Ascending colon,Low-grade adenoma
+case24,973,Ip,15,Sigmoid colon,Low-grade adenoma
+case25,338,Is,7,Sigmoid colon,Low-grade adenoma
+case26,370,Is,5,Descending colon,Low-grade adenoma
+case27,249,Is,5,Ascending colon,Hyperplastic polyp
+case28,195,Is,2,Transverse colon,Low-grade adenoma
+case29,377,Isp,13,Sigmoid colon,Low-grade adenoma
+case30,224,IIa,4,Sigmoid colon,Low-grade adenoma
+case31,183,Ip,12,Descending colon,Low-grade adenoma
+case32,981,Ip,15,Ascending colon,Traditional serrated adenoma
+case33,594,Is,5,Sigmoid colon,Low-grade adenoma
+case34,245,Is,3,Ascending colon,Low-grade adenoma
+case35,1212,Ip,15,Sigmoid colon,High-grade adenoma
+case36,815,IIa,7,Sigmoid colon,Low-grade adenoma
+case37,448,Is,7,Transverse colon,Low-grade adenoma
+case38,509,Is,5,Ascending colon,Low-grade adenoma
+case39,713,IIa,13,Ascending colon,Low-grade adenoma
+case40,159,IIa,5,Transverse colon,Low-grade adenoma
+case41,108,IIa,3,Rectum,Low-grade adenoma
+case42,268,Is,7,Transverse colon,Low-grade adenoma
+case43,260,Isp,10,Ascending colon,Low-grade adenoma
+case44,745,IIa,5,Sigmoid colon,Low-grade adenoma
+case45,383,Is,3,Ascending colon,Low-grade adenoma
+case46,170,IIa,2,Transverse colon,Hyperplastic polyp
+case47,705,Is,5,Transverse colon,Low-grade adenoma
+case48,176,Is,3,Transverse colon,Low-grade adenoma
+case49,181,IIa,3,Transverse colon,Low-grade adenoma
+case50,740,Ip,10,Sigmoid colon,Low-grade adenoma
+case51,1737,IIa,15,Cecum,Low-grade adenoma
+case52,207,IIa,6,Sigmoid colon,Low-grade adenoma
+case53,245,Is,4,Rectum,Hyperplastic polyp
+case54,345,Is,4,Sigmoid colon,Low-grade adenoma
+case55,700,Is,3,Ascending colon,Low-grade adenoma
+case56,248,Is,4,Sigmoid colon,Hyperplastic polyp
+case57,326,Is,5,Transverse colon,Low-grade adenoma
+case58,267,IIa,6,Transverse colon,Sessile serrated lesion
+case59,646,Isp,8,Sigmoid colon,Traditional serrated adenoma
+case60,146,IIa,8,Transverse colon,Low-grade adenoma
+case61,679,Isp,6,Ascending colon,Low-grade adenoma
+case62,351,Is,7,Ascending colon,Low-grade adenoma
+case63,632,Is,7,Rectum,Invasive cancer (T1b)
+case64,81,IIa,3,Sigmoid colon,Low-grade adenoma
+case65,222,IIa,3,Cecum,Low-grade adenoma
+case66,1685,Is,6,Sigmoid colon,Low-grade adenoma
+case67,191,IIa,5,Transverse colon,Low-grade adenoma
+case68,1319,Is,15,Rectum,High-grade adenoma
+case69,130,IIa,3,Descending colon,Low-grade adenoma
+case70,264,Ip,15,Sigmoid colon,Low-grade adenoma
+case71,1021,Is,4,Ascending colon,Low-grade adenoma
+case72,774,Is,5,Ascending colon,Low-grade adenoma
+case73,1285,Is,3,Cecum,Low-grade adenoma
+case74,276,Isp,5,Sigmoid colon,Low-grade adenoma
+case75,343,Is,3,Transverse colon,Low-grade adenoma
+case76,343,Is,3,Cecum,Low-grade adenoma
+case77,215,Is,4,Ascending colon,Low-grade adenoma
+case78,267,Isp,12,Sigmoid colon,High-grade adenoma
+case79,76,Is,4,Descending colon,Low-grade adenoma
+case80,1192,Is,10,Sigmoid colon,Low-grade adenoma
+case81,427,Is,6,Sigmoid colon,Low-grade adenoma
+case82,111,IIa,3,Sigmoid colon,Sessile serrated lesion
+case83,795,Isp,13,Rectum,Low-grade adenoma
+case84,218,Is,5,Descending colon,Low-grade adenoma
+case85,1393,IIa,8,Ascending colon,Low-grade adenoma
+case86,257,IIa,4,Sigmoid colon,Low-grade adenoma
+case87,454,Is,3,Cecum,Low-grade adenoma
+case88,249,Is,4,Ascending colon,Low-grade adenoma
+case89,149,Ip,5,Descending colon,Low-grade adenoma
+case90,479,Is,10,Ascending colon,Sessile serrated lesion
+case91,1061,IIa,13,Ascending colon,Low-grade adenoma
+case92,391,Is,7,Descending colon,Low-grade adenoma
+case93,452,Is,7,Descending colon,Low-grade adenoma
+case94,136,Is,6,Sigmoid colon,Low-grade adenoma
+case95,606,Isp,8,Sigmoid colon,Low-grade adenoma
+case96,301,Is,5,Sigmoid colon,Hyperplastic polyp
+case97,431,IIa,15,Cecum,Sessile serrated lesion
+case98,170,IIa,4,Transverse colon,Low-grade adenoma
+case99,161,Is,5,Sigmoid colon,Low-grade adenoma
+case100,188,IIa,3,Rectum,Hyperplastic polyp
