@@ -16,7 +16,6 @@ The dataset and model we use in this project are available at baidupan:
 
 链接：https://pan.baidu.com/s/1ku1pImibv5yhpwzebvT1WQ?pwd=czzk 
 提取码：czzk 
---来自百度网盘超级会员V6的分享
 
 ### Dataset
 In this link, the "data.zip" file contains all of the dataset we used and synthetic images that we generated in this project.
@@ -32,8 +31,21 @@ In this link, the "data.zip" file contains all of the dataset we used and synthe
 "data/negatives" contains the negative background images we used for inpainting.
 
 "data/SUN-SEG_10/multiple_controlnet_inpaint" contains all of the synthetic images we generated in this project, although we 
-generate 5 folds, only use the 1st fold for further training. 
+generate 5 folds, only use the 1st fold for further training:
+
 - "data/SUN-SEG_10/multiple_controlnet_inpaint/images" contain the synthetic images
-- "data/SUN-SEG_10/multiple_controlnet_inpaint/images" contain the synthetic images
+- "data/SUN-SEG_10/multiple_controlnet_inpaint/refined_masks" contain the refine pseudo-mask of the synthetic images
+- "data/SUN-SEG_10/multiple_controlnet_inpaint/initial_masks" contain the inpainted region of the synthetic images, which is used for pseudo-mask refinement.
+- "data/SUN-SEG_10/match_data/1_data.csv" contains the match data of the synthetic images and the original images, which is used for further training.
 
 ### Model
+In this link, the folder "model" contains all of the models we used in this project.
+
+"model/diffusion_and_controlnet/pretrained" contrains the pretrained inpainting model and controlnet modules, which is used in finetuning the inpainting model.
+
+"model/diffusion_and_controlnet/finetuned" contrains the finetuned inpainting model and controlnet modules, which is used in generating synthetic images.
+
+- "model/diffusion_and_controlnet/finetuned/inpaint_1e5" is the finetuned stable diffusion backbone model.
+- "model/diffusion_and_controlnet/finetuned/boundary_controlnet" is the finetuned boundary controlnet model.
+- "model/diffusion_and_controlnet/finetuned/surface_controlnet" is the finetuned surface controlnet model.
+
