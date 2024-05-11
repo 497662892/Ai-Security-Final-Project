@@ -71,6 +71,12 @@ Before running any code in the "Polyp-PVT" or "Polyp-PVT_box_guide" folder, plea
 "model/refinement_network/model_pth" subfolder contains the pseudo-mask refinement network we used in this project. can be used to refine the pseudo-mask.
 
 ## Environment
+please run the following code for environment setup:
+```bash
+git clone https://github.com/497662892/Ai-Security-Final-Project.git
+cd Ai-Security-Final-Project
+pip install -r requirements.txt
+```
 
 ## Training Inpainting Model
 
@@ -87,7 +93,7 @@ Please also update the path in the **"diffuser/inpaint/bash/polyp/training_inpai
 To train the inpainting model, you can run the following command:
 ```bash
 cd diffuser/inpaint
-nohup bash bash/polyp/training_inpaint.sh  > "your training log path" &
+nohup bash bash/script/polyp/training_inpaint.sh  > "your training log path" &
 ```
 
 ## Training Controlnet Model
@@ -98,11 +104,32 @@ Before running the training code, please make sure you have downloaded the pretr
 
 You also need to update the concept list for validation via "diffuser/controlnet/concept_list/0430/make_concept_list.ipynb".
 
-Please also update the path in the **"diffuser/controlnet/bash/polyp/training_controlnet.sh"** file.
+Please also update the path in the **"diffuser/controlnet/bash/train/polyp/train_multicontrolnet.sh"** file.
+
+
+### Training
+To train the controlnet model, you can run the following command:
+```bash
+cd diffuser/controlnet
+nohup bash bash/train/polyp/train_multicontrolnet.sh  > "your training log path" &
+```
 
 ## Visualization Inpainting Images
 
+If you want to visualize the inpainting images, you can open the ipynb in "diffuser/controlnet/visualization/polyp/infer_multicontrolnet_inpaint.ipynb" and run the code.
+
+It will generating inpainting images for visualization.
+
+
 ## Generating Inpainting Images
+
+To generate inpainting images, you need to modified the path in the file "diffuser/controlnet/bash/infer/polyp/infer_multiplecontrolnet.sh".
+
+Then you can run the command below to generate inpainting images:
+```bash
+cd diffuser/controlnet
+nohup bash bash/infer/polyp/infer_multiplecontrolnet.sh  > "your generating log path" &
+```
 
 ## Training Pseudo-mask Refinement network
 
@@ -136,7 +163,7 @@ python -W ignore batch_infer.py \
 
 ```
 
-Then, run the following command, after changing the log path in the **"refine.sh"** file:
+Then, run the following command, after changing the log path in the **"batch_infer.sh"** file:
 ```bash
 cd Polyp-PVT_box_guide
 nohup bash bash/polyp/refine.sh  > "your refinement log path" &
@@ -144,7 +171,11 @@ nohup bash bash/polyp/refine.sh  > "your refinement log path" &
 ```
 ## Suitible cases selection
 
+After pseudo-mask refinement, please run the "build_merge_dataset.ipynb" to generate the match data for further training.
 
+Please change the path in the "build_merge_dataset.ipynb" to the path of your device.
+
+For case selection, you can simply change the "align_score_cutoff" in "Polyp-PVT/bash/polyp/aug/train_aug.sh"
 
 ## Training Segmentation Model
 
