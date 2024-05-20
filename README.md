@@ -93,7 +93,7 @@ Please also update the path in the **"diffuser/inpaint/bash/polyp/training_inpai
 To train the inpainting model, you can run the following command:
 ```bash
 cd diffuser/inpaint
-nohup bash bash/script/polyp/training_inpaint.sh  > "your training log path" &
+nohup bash bash/polyp/training_inpaint.sh  > "your training log path" &
 ```
 
 ## Training Controlnet Model
